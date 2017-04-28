@@ -5,8 +5,8 @@ import weather_data
 
 bot = telebot.TeleBot(config.token)
 
-markup = types.ReplyKeyboardMarkup()
-markup.row('Погода в Москве')
+#markup = types.ReplyKeyboardMarkup()
+#markup.row('Погода в Москве')
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
 def message(message):
