@@ -1,7 +1,7 @@
 import config 
 import telebot 
 import weather_data
-from telebot import types
+#from telebot import types
 
 bot = telebot.TeleBot(config.token)
 
