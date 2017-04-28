@@ -5,8 +5,8 @@ from telebot import types
 
 bot = telebot.TeleBot(config.token)
 
-markup = types.ReplyKeyboardMarkup()
-markup.row('Погода в Москве')
+# markup = types.ReplyKeyboardMarkup()
+# markup.row('Погода в Москве')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
